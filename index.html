@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        
+    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student enrollmemt form</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1>Online-Student enrollmemt form</h1>
+        <br>
+        <br>
+
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <div>
+            <label for="First name">First Name:</label>
+            <input type="text" required>
+        </div>
+        <br>
+        <div>
+            <label for="Last">Last Name:</label>
+        <input type="text" required>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="reg number">Register Number:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="mobile number">Mobile Number:</label>
+            <input type="tel" required>
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+    
+            <label>
+                <input type="radio" name="gender" value="male">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Others
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="Email Id">Email ID:</label>
+            <input type="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="Department">Department:</label>
+        
+            <select id="department" name="Department">
+                <option value="CSE">Select Department</option>
+                <option value="CSE">CSE</option>
+                <option value="IOT">IOT</option>
+                <option value="AIDS">AIDS</option>
+                <option value="AIML">AIML</option>
+                <option value="MECHANICAL">MECHANICAL</option>
+                <option value="ECE">ECE</option>
+            </select>
+        </div>
+            <br>
+           <div>
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+               <option value="Select year">Select year</option>
+               <option value="1st">1st</option>
+               <option value="2nd">2nd</option>
+               <option value="3rd">3rd</option>
+           </select>
+           </div> 
+        <br>
+        
+        <div>
+            <label for="languages">Programming languages:
+                <input type="radio" name="C" value="c"> 
+                C
+            </label>
+            <label>
+            <input type="radio" name="C++" value="c++"> 
+                C++
+            </label>
+            <input type="radio" name="Java" value="java"> 
+                Java
+            </label>
+            <input type="radio" name="Python" value="Python"> 
+                Python
+        </div>
+    
+        <br>
+        <div>
+            <label for="Available Slots">Available Slots:</label>
+            <select id="slots" name="slots">
+                <option value="Select">Select Slots</option>
+                <option value="10:00 am">10:00 am</option>
+                <option value="2:00 pm">2:00 pm</option>
+                <option value="5:00 pm">5:00 pm</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="pdf-file">Resume:</label>
+            <input type="file" id="pdf-file" name="pdf-file" accept=".pdf">
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+    </div>
+</body> 
+
+</html>
